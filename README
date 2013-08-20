@@ -1,3 +1,5 @@
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=1886
 
 nginx.vim highlights configuration files for nginx, the high-performance web server (see http://nginx.net).
+
+current version is 0.3.3, update at 2013-01-20. 
