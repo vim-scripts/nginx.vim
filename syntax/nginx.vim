@@ -306,6 +306,7 @@ syn keyword ngxDirective ssi_silent_errors
 syn keyword ngxDirective ssi_types
 syn keyword ngxDirective ssi_value_length
 syn keyword ngxDirective ssl
+syn keyword ngxDirective ssl_buffer_size
 syn keyword ngxDirective ssl_certificate
 syn keyword ngxDirective ssl_certificate_key
 syn keyword ngxDirective ssl_ciphers
@@ -317,6 +318,9 @@ syn keyword ngxDirective ssl_prefer_server_ciphers
 syn keyword ngxDirective ssl_protocols
 syn keyword ngxDirective ssl_session_cache
 syn keyword ngxDirective ssl_session_timeout
+syn keyword ngxDirective ssl_stapling
+syn keyword ngxDirective ssl_stapling_verify
+syn keyword ngxDirective ssl_trusted_certificate
 syn keyword ngxDirective ssl_verify_client
 syn keyword ngxDirective ssl_verify_depth
 syn keyword ngxDirective starttls
