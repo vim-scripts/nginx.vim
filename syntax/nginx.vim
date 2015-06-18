@@ -348,6 +348,7 @@ syn keyword ngxDirective userid_p3p
 syn keyword ngxDirective userid_path
 syn keyword ngxDirective userid_service
 syn keyword ngxDirective uwsgi_pass
+syn keyword ngxDirective uwsgi_param
 syn keyword ngxDirective uwsgi_read_timeout
 syn keyword ngxDirective valid_referers
 syn keyword ngxDirective variables_hash_bucket_size
