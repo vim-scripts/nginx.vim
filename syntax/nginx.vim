@@ -633,9 +633,60 @@ syn keyword ngxDirectiveThirdParty upstream_fair_shm_size
 
 " uWSGI module
 " Support for running uWSGI applications behind nginx
-syn keyword ngxDirectiveThirdParty uwsgi_pass
+syn keyword ngxDirectiveThirdParty uwsgi_bind
+syn keyword ngxDirectiveThirdParty uwsgi_buffer_size
+syn keyword ngxDirectiveThirdParty uwsgi_buffering
+syn keyword ngxDirectiveThirdParty uwsgi_buffers
+syn keyword ngxDirectiveThirdParty uwsgi_busy_buffers_size
+syn keyword ngxDirectiveThirdParty uwsgi_cache
+syn keyword ngxDirectiveThirdParty uwsgi_cache_bypass
+syn keyword ngxDirectiveThirdParty uwsgi_cache_key
+syn keyword ngxDirectiveThirdParty uwsgi_cache_lock
+syn keyword ngxDirectiveThirdParty uwsgi_cache_lock_timeout
+syn keyword ngxDirectiveThirdParty uwsgi_cache_methods
+syn keyword ngxDirectiveThirdParty uwsgi_cache_min_uses
+syn keyword ngxDirectiveThirdParty uwsgi_cache_path
+syn keyword ngxDirectiveThirdParty uwsgi_cache_purge
+syn keyword ngxDirectiveThirdParty uwsgi_cache_revalidate
+syn keyword ngxDirectiveThirdParty uwsgi_cache_use_stale
+syn keyword ngxDirectiveThirdParty uwsgi_cache_valid
+syn keyword ngxDirectiveThirdParty uwsgi_connect_timeout
+syn keyword ngxDirectiveThirdParty uwsgi_force_ranges
+syn keyword ngxDirectiveThirdParty uwsgi_hide_header
+syn keyword ngxDirectiveThirdParty uwsgi_ignore_client_abort
+syn keyword ngxDirectiveThirdParty uwsgi_ignore_headers
+syn keyword ngxDirectiveThirdParty uwsgi_intercept_errors
+syn keyword ngxDirectiveThirdParty uwsgi_limit_rate
+syn keyword ngxDirectiveThirdParty uwsgi_max_temp_file_size
+syn keyword ngxDirectiveThirdParty uwsgi_modifier1
+syn keyword ngxDirectiveThirdParty uwsgi_modifier2
+syn keyword ngxDirectiveThirdParty uwsgi_next_upstream
+syn keyword ngxDirectiveThirdParty uwsgi_next_upstream_timeout
+syn keyword ngxDirectiveThirdParty uwsgi_next_upstream_tries
+syn keyword ngxDirectiveThirdParty uwsgi_no_cache
 syn keyword ngxDirectiveThirdParty uwsgi_param
+syn keyword ngxDirectiveThirdParty uwsgi_pass
+syn keyword ngxDirectiveThirdParty uwsgi_pass_header
+syn keyword ngxDirectiveThirdParty uwsgi_pass_request_body
+syn keyword ngxDirectiveThirdParty uwsgi_pass_request_headers
 syn keyword ngxDirectiveThirdParty uwsgi_read_timeout
+syn keyword ngxDirectiveThirdParty uwsgi_request_buffer
+syn keyword ngxDirectiveThirdParty uwsgi_send_timeout
+syn keyword ngxDirectiveThirdParty uwsgi_ssl_certificate
+syn keyword ngxDirectiveThirdParty uwsgi_ssl_ciphers
+syn keyword ngxDirectiveThirdParty uwsgi_ssl_crl
+syn keyword ngxDirectiveThirdParty uwsgi_ssl_name
+syn keyword ngxDirectiveThirdParty uwsgi_ssl_password_file
+syn keyword ngxDirectiveThirdParty uwsgi_ssl_protocols
+syn keyword ngxDirectiveThirdParty uwsgi_ssl_server_name
+syn keyword ngxDirectiveThirdParty uwsgi_ssl_session_reuse
+syn keyword ngxDirectiveThirdParty uwsgi_ssl_trusted_certificate
+syn keyword ngxDirectiveThirdParty uwsgi_ssl_verify_on
+syn keyword ngxDirectiveThirdParty uwsgi_ssl_verify_depth
+syn keyword ngxDirectiveThirdParty uwsgi_store
+syn keyword ngxDirectiveThirdParty uwsgi_store_access
+syn keyword ngxDirectiveThirdParty uwsgi_temp_file_write_size
+syn keyword ngxDirectiveThirdParty uwsgi_temp_path
 
 " Upstream Consistent Hash <http://wiki.nginx.org/NginxHttpUpstreamConsistentHash>
 " Select backend based on Consistent hash ring.
