@@ -347,9 +347,6 @@ syn keyword ngxDirective userid_name
 syn keyword ngxDirective userid_p3p
 syn keyword ngxDirective userid_path
 syn keyword ngxDirective userid_service
-syn keyword ngxDirective uwsgi_pass
-syn keyword ngxDirective uwsgi_param
-syn keyword ngxDirective uwsgi_read_timeout
 syn keyword ngxDirective valid_referers
 syn keyword ngxDirective variables_hash_bucket_size
 syn keyword ngxDirective variables_hash_max_size
@@ -633,6 +630,12 @@ syn keyword ngxDirectiveThirdParty upload_progress_template
 " Sends an incoming request to the least-busy backend server, rather than distributing requests round-robin.
 syn keyword ngxDirectiveThirdParty fair
 syn keyword ngxDirectiveThirdParty upstream_fair_shm_size
+
+" uWSGI module
+" Support for running uWSGI applications behind nginx
+syn keyword ngxDirectiveThirdParty uwsgi_pass
+syn keyword ngxDirectiveThirdParty uwsgi_param
+syn keyword ngxDirectiveThirdParty uwsgi_read_timeout
 
 " Upstream Consistent Hash <http://wiki.nginx.org/NginxHttpUpstreamConsistentHash>
 " Select backend based on Consistent hash ring.
