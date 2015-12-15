@@ -710,6 +710,11 @@ syn keyword ngxDirectiveThirdParty xss_get
 syn keyword ngxDirectiveThirdParty xss_input_types
 syn keyword ngxDirectiveThirdParty xss_output_type
 
+" RTMP module
+syn keyword ngxDirectiveBlock rtmp contained
+syn keyword ngxDirectiveBlock application contained
+syn keyword ngxDirectiveThirdParty play
+
 " highlight
 
 hi link ngxComment Comment
