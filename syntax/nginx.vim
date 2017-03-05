@@ -643,6 +643,83 @@ syn keyword ngxDirectiveThirdParty xss_get
 syn keyword ngxDirectiveThirdParty xss_input_types
 syn keyword ngxDirectiveThirdParty xss_output_type
 
+" lua-nginx-module <https://github.com/openresty/lua-nginx-module>
+" syntax highlight for lua-nginx-module *_by_lua_block
+syn keyword ngxDirectiveBlock init_by_lua_block              contained
+syn keyword ngxDirectiveBlock init_worker_by_lua_block       contained
+syn keyword ngxDirectiveBlock set_by_lua_block               contained
+syn keyword ngxDirectiveBlock rewrite_by_lua_block           contained
+syn keyword ngxDirectiveBlock access_by_lua_block            contained
+syn keyword ngxDirectiveBlock content_by_lua_block           contained
+syn keyword ngxDirectiveBlock header_filter_by_lua_block     contained
+syn keyword ngxDirectiveBlock body_filter_by_lua_block       contained
+syn keyword ngxDirectiveBlock log_by_lua_block               contained
+syn keyword ngxDirectiveBlock balancer_by_lua_block          contained
+syn keyword ngxDirectiveBlock ssl_certificate_by_lua_block   contained
+syn keyword ngxDirectiveBlock ssl_session_fetch_by_lua_block contained
+syn keyword ngxDirectiveBlock ssl_session_store_by_lua_block contained
+
+" syntax highlight for lua-nginx-module *_by_lua
+syn keyword ngxDirective init_by_lua
+syn keyword ngxDirective init_worker_by_lua
+syn keyword ngxDirective set_by_lua
+syn keyword ngxDirective access_by_lua
+syn keyword ngxDirective rewrite_by_lua
+syn keyword ngxDirective content_by_lua
+syn keyword ngxDirective header_filter_by_lua
+syn keyword ngxDirective body_filter_by_lua
+syn keyword ngxDirective log_by_lua
+
+" syntax highlight for lua-nginx-module *_by_lua_file
+syn keyword ngxDirective init_by_lua_file
+syn keyword ngxDirective init_worker_by_lua_file
+syn keyword ngxDirective set_by_lua_file
+syn keyword ngxDirective rewrite_by_lua_file
+syn keyword ngxDirective access_by_lua_file
+syn keyword ngxDirective content_by_lua_file
+syn keyword ngxDirective header_filter_by_lua_file
+syn keyword ngxDirective body_filter_by_lua_file
+syn keyword ngxDirective log_by_lua_file
+syn keyword ngxDirective balancer_by_lua_file
+syn keyword ngxDirective ssl_certificate_by_lua_file
+syn keyword ngxDirective ssl_session_fetch_by_lua_file
+syn keyword ngxDirective ssl_session_store_by_lua_file
+
+" syntax highlight for lua-nginx-module about ssl
+syn keyword ngxDirective lua_ssl_ciphers
+syn keyword ngxDirective lua_ssl_crl
+syn keyword ngxDirective lua_ssl_protocols
+syn keyword ngxDirective lua_ssl_trusted_certificate
+syn keyword ngxDirective lua_ssl_verify_depth
+
+" syntax highlight for lua-nginx-module about socket
+syn keyword ngxDirective lua_socket_connect_timeout
+syn keyword ngxDirective lua_socket_send_timeout
+syn keyword ngxDirective lua_socket_send_lowat
+syn keyword ngxDirective lua_socket_read_timeout
+syn keyword ngxDirective lua_socket_buffer_size
+syn keyword ngxDirective lua_socket_pool_size
+syn keyword ngxDirective lua_socket_keepalive_timeout
+syn keyword ngxDirective lua_socket_log_errors
+
+" syntax highlight for lua-nginx-module others
+syn keyword ngxDirective lua_use_default_type
+syn keyword ngxDirective lua_malloc_trim
+syn keyword ngxDirective lua_code_cache
+syn keyword ngxDirective lua_regex_cache_max_entries
+syn keyword ngxDirective lua_regex_match_limit
+syn keyword ngxDirective lua_package_path
+syn keyword ngxDirective lua_package_cpath
+syn keyword ngxDirective lua_need_request_body
+syn keyword ngxDirective lua_shared_dict
+syn keyword ngxDirective lua_http10_buffering
+syn keyword ngxDirective rewrite_by_lua_no_postpone
+syn keyword ngxDirective access_by_lua_no_postpone
+syn keyword ngxDirective lua_transform_underscores_in_response_headers
+syn keyword ngxDirective lua_check_client_abort
+syn keyword ngxDirective lua_max_pending_timers
+syn keyword ngxDirective lua_max_running_timers
+
 " highlight
 
 hi link ngxComment Comment
