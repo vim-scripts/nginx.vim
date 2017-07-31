@@ -5,6 +5,8 @@ if exists("b:current_syntax")
   finish
 end
 
+set commentstring=#%s
+
 setlocal iskeyword+=.
 setlocal iskeyword+=/
 setlocal iskeyword+=:
