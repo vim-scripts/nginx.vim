@@ -7,9 +7,9 @@ end
 
 set commentstring=#%s
 
-#setlocal iskeyword+=.
-#setlocal iskeyword+=/
-#setlocal iskeyword+=:
+" setlocal iskeyword+=.
+" setlocal iskeyword+=/
+" setlocal iskeyword+=:
 
 syn match ngxVariable '\$\w\w*'
 syn match ngxVariableBlock '\$\w\w*' contained
