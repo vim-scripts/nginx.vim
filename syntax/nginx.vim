@@ -5,9 +5,11 @@ if exists("b:current_syntax")
   finish
 end
 
-setlocal iskeyword+=.
-setlocal iskeyword+=/
-setlocal iskeyword+=:
+set commentstring=#%s
+
+" setlocal iskeyword+=.
+" setlocal iskeyword+=/
+" setlocal iskeyword+=:
 
 syn match ngxVariable '\$\w\w*'
 syn match ngxVariableBlock '\$\w\w*' contained
